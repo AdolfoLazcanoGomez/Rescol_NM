@@ -24,7 +24,7 @@ TAU="2.06"
 #USAR_ITERACIONES="--usar-iteraciones"
 USAR_LIMITADOR="--usar-limitador"
 USAR_TIEMPO="--usar-tiempo"
-TIEMPO_MAX="60"
+TIEMPO_MAX="30"
 VALOR_LIMITADOR="1"
 SILENCE="--silence"
 #DIR_SALIDA="./resultados"
@@ -33,7 +33,7 @@ RESCOL="--rescol"
 
 ## Ejecutar el comando 10 veces con la primera semilla fija y las siguientes secuenciales
 
-RESULTS_ROOT="$SCRIPT_DIR/results"
+RESULTS_ROOT="$SCRIPT_DIR/results_2"
 mkdir -p "$RESULTS_ROOT"
 
 #SEMILLA_INICIAL=1234567
