@@ -1,0 +1,32 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Datos de debug 🪲: 
+
+Nombre de la instancia: Seg_2
+Comentario: 
+Número de nodos: 99
+Número de arcos obligatorios: 52
+Número de arcos opcionales: 33
+Número de nodos iniciales: 1
+Número de nodos terminales: 1
+Número de nodos terminales: 1
+No hay restricciones
+
+Datos: 
+Nodos iniciales: 
+949 
+
+Nodos terminales: 
+686 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+⌚Época 0
+Tiempo de ejecución: 30.0335 segundos
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+✨🏆 Mejor resultado 🏆✨
+
+Mejor hormiga: 10 🐜🥇
+Mejor costo: 18563.7 ⏩
+Mejor longitud: 151 ⚡
+El directorio de salida:/home/alazcano/Rescol_NM/Rescol_NM/prueba_automatizada/results_2/archivo_segmetación_Seg_2
+La solución es: 

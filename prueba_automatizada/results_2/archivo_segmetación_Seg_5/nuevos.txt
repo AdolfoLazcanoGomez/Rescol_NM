@@ -1,0 +1,80 @@
+Mejor longitud: 67
+Longitud tour: 0
+Longitud salida: 0
+Cantidad arcos: 81
+Costo recoleccion: 44
+Costo recorrer: 7720
+Costo pesos pasada: 7676
+Mejor costo: 7791.05
+Nodo inicio: 714
+Nodo fin: 399
+Tiempo de resolucion: 29998243 microsegundos
+La solución es:
+714
+843
+1023
+1024
+109
+761
+762
+363
+933
+864
+446
+646
+714
+108
+446
+864
+624
+37
+38
+157
+799
+67
+715
+603
+623
+923
+604
+251
+68
+158
+157
+38
+364
+624
+37
+38
+364
+363
+762
+871
+750
+676
+364
+624
+37
+799
+67
+715
+603
+623
+1060
+1059
+1061
+447
+646
+446
+447
+646
+714
+843
+1023
+1024
+109
+761
+933
+363
+750
+399

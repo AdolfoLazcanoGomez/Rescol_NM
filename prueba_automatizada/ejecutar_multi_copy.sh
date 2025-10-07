@@ -34,7 +34,7 @@ RESCOL="--rescol"
 
 ## Ejecutar el comando 10 veces con la primera semilla fija y las siguientes secuenciales
 
-RESULTS_ROOT="$SCRIPT_DIR/results"
+RESULTS_ROOT="$SCRIPT_DIR/results_2"
 mkdir -p "$RESULTS_ROOT"
 
 #SEMILLA_INICIAL=1234567
@@ -70,7 +70,7 @@ for INPUT_FILE in "$INSTANCES_DIR"/*.txt; do
     #OUTPUT_FILE="${INSTANCE_NAME}_$SEMILLA.txt"
     OUTPUT_FILE="$INSTANCE_RESULTS_DIR/${INSTANCE_NAME}_$SEMILLA.txt"
     DIR_SALIDA="$INSTANCE_RESULTS_DIR"
-    echo "  Ejecutando con semilla: $SEMILLA, salida: $OUTPUT_FILE"
+    echo "  Ejecutando con semilla: $SEMILLA, salida_2: $OUTPUT_FILE"
     # "$EXECUTABLE" "$INPUT_FILE" --metodo $METODO --alfa $ALFA --rho $RHO --tau-as $TAU \
     #   --tiempo-max $TIEMPO_MAX --num-hormigas $NUM_HORMIGAS --epocas $EPOCAS $salida_Floyd_Warshall \
     #   $BETA0 $USAR_TIEMPO $USAR_LIMITADOR --valor-limitador $VALOR_LIMITADOR $SILENCE \
