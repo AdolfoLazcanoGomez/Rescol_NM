@@ -24,7 +24,7 @@ TAU="2.06"
 #USAR_ITERACIONES="--usar-iteraciones"
 USAR_LIMITADOR="--usar-limitador"
 USAR_TIEMPO="--usar-tiempo"
-TIEMPO_MAX="30"
+TIEMPO_MAX="60"
 VALOR_LIMITADOR="1"
 SILENCE="--silence"
 #DIR_SALIDA="./resultados"
@@ -33,13 +33,13 @@ RESCOL="--rescol"
 
 ## Ejecutar el comando 10 veces con la primera semilla fija y las siguientes secuenciales
 
-RESULTS_ROOT="$SCRIPT_DIR/results"
+RESULTS_ROOT="$SCRIPT_DIR/results_4"
 mkdir -p "$RESULTS_ROOT"
 
-#SEMILLA_INICIAL=1234567
+SEMILLA_INICIAL=1234567
 
 for INPUT_FILE in "$INSTANCES_DIR"/*.txt; do
-  SEMILLA_INICIAL=1234567
+  #SEMILLA_INICIAL=1234567
   if [[ ! -f "$INPUT_FILE" ]]; then
     echo "No se encontraron archivos .txt en $INSTANCES_DIR"
     break

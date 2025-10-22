@@ -8,7 +8,7 @@
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 PROJECT_ROOT=$(realpath "$SCRIPT_DIR/..")
 EXECUTABLE="$PROJECT_ROOT/RESCOL"
-INSTANCES_DIR="$PROJECT_ROOT/Instancias/Instancias_test"
+INSTANCES_DIR="$PROJECT_ROOT/Instancias/Instancias_CN"
 
 METODO="0"
 #ITER_MAX="1000"
@@ -24,7 +24,7 @@ TAU="2.06"
 #USAR_ITERACIONES="--usar-iteraciones"
 USAR_LIMITADOR="--usar-limitador"
 USAR_TIEMPO="--usar-tiempo"
-TIEMPO_MAX="30"
+TIEMPO_MAX="60"
 VALOR_LIMITADOR="1"
 SILENCE="--silence"
 #DIR_SALIDA="./resultados"

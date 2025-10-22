@@ -8,7 +8,7 @@
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 PROJECT_ROOT=$(realpath "$SCRIPT_DIR/..")
 EXECUTABLE="$PROJECT_ROOT/RESCOL"
-INSTANCES_DIR="$PROJECT_ROOT/Instancias/Instancias_test"
+INSTANCES_DIR="$PROJECT_ROOT/Instancias/Instancias_QN"
 
 METODO="0"
 #ITER_MAX="1000"
@@ -36,10 +36,10 @@ RESCOL="--rescol"
 RESULTS_ROOT="$SCRIPT_DIR/results"
 mkdir -p "$RESULTS_ROOT"
 
-#SEMILLA_INICIAL=1234567
+SEMILLA_INICIAL=1234567
 
 for INPUT_FILE in "$INSTANCES_DIR"/*.txt; do
-  SEMILLA_INICIAL=1234567
+  #SEMILLA_INICIAL=1234567
   if [[ ! -f "$INPUT_FILE" ]]; then
     echo "No se encontraron archivos .txt en $INSTANCES_DIR"
     break
