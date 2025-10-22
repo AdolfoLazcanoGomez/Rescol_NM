@@ -34,7 +34,7 @@ RESCOL="--rescol"
 
 ## Ejecutar el comando 10 veces con la primera semilla fija y las siguientes secuenciales
 
-RESULTS_ROOT="$SCRIPT_DIR/results"
+RESULTS_ROOT="$SCRIPT_DIR/results_60"
 mkdir -p "$RESULTS_ROOT"
 
 SEMILLA_INICIAL=1234567
